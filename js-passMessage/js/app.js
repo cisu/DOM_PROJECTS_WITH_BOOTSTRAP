@@ -19,10 +19,10 @@
       setTimeout(function () {
         feedback.classList.remove('show');
       }, 2000);
+    } else {
+      // change value
+      changeMsg.textContent = value;
+      message.value = '';
     }
-
-    // change value
-    changeMsg.textContent = value;
-    message.value = '';
   });
 })();
